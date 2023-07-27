@@ -1,3 +1,8 @@
+/**
+  |============================
+  |       Base stales
+  |============================
+*/
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-color-text);
@@ -20,7 +25,13 @@ ul,
 li {
   list-style-type: none;
 }
-.page-header {
+/**
+  |============================
+  |         Header stales
+  |============================
+*/
+
+.header-nav {
   background: var(--primary-background);
 }
 
@@ -64,7 +75,7 @@ li {
 .contacts {
   font-style: normal;
 }
-.contacts .list .link {
+.contacts-list-link {
   color: var(--primary-color-text);
   font-size: 16px;
   text-decoration: none;
@@ -72,10 +83,16 @@ li {
   letter-spacing: 0.32px;
   font-style: normal;
 }
-.contacts .list .link:hover,
-.contacts .list .link:focus {
+.contacts-list-link:hover,
+.contacts-list-link:focus {
   color: var(--color-button-nav);
 }
+
+/**
+  |============================
+  |       Button stales
+  |============================
+*/
 .button {
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
@@ -112,7 +129,14 @@ li {
 .hero {
   background-color: var(--background-color);
 }
-.main-page {
+
+/**
+  |============================
+  |      Main-page stales
+  |============================
+*/
+.main-page,
+.portfolio {
   color: var(--primary-background);
   text-align: center;
   font-size: 56px;
@@ -120,7 +144,9 @@ li {
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
-.concept-title {
+
+.concept-title,
+.portfolio-subtitle {
   color: var(--background-color);
   font-size: 20px;
   font-weight: 500;
@@ -129,7 +155,8 @@ li {
   text-align: center;
 }
 
-.concept-text {
+.concept-text,
+.portfolio-text {
   color: var(--primary-color-text);
   font-size: 16px;
   line-height: 1.5;
@@ -153,6 +180,11 @@ li {
 .item-card {
   background: var(--primary-background);
 }
+/**
+  |============================
+  |        Footer stales
+  |============================
+*/
 .footer-board {
   background: var(--background-color);
 }
