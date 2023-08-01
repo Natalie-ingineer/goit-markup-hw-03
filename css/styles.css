@@ -95,8 +95,7 @@ nav {
   text-decoration: none;
 }
 
-.header-logo-web,
-.footer-logo-web {
+.header-logo-web {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -111,10 +110,6 @@ nav {
 }
 .header-logo-studio {
   color: var(--background-color);
-}
-.footer-logo-studio {
-  color: var(--background-color-portfolio);
-  background-color: var(--background-color);
 }
 
 .nav-link {
@@ -330,8 +325,11 @@ nav {
   text-transform: capitalize;
   text-align: center;
   display: block;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
+  justify-content: center;
+  align-content: center;
 }
 
 
@@ -428,8 +426,38 @@ nav {
   background: var(--background-color);
   max-width: 1400px;
 }
+
+.footer .container {
+  width: 1158px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-logo-web {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--color-button);
+  display: block;
+  display: inline-block;
+  margin-left: 156px;
+  margin-top: 101.5px;
+  margin-bottom: 17.5px;
+}
+
+.footer-logo-studio {
+  color: var(--background-color-portfolio);
+  background-color: var(--background-color);
+}
+
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--background-color-portfolio);
+  margin-left: 156px;
+  padding-bottom: 100px;
+  max-width: 264px;
 }
