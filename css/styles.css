@@ -42,7 +42,8 @@ p {
 ul,
 li {
   list-style-type: none;
-
+  padding: 0;
+  margin: 0;
 }
 .container {
   max-width: 1158px;
@@ -251,29 +252,26 @@ nav {
   |============================
 */
 .concept .container {
-  max-width: 1128px;
-  padding: 24px;
+  max-width: 1158px;
+  padding: 0 15px;
   margin: 0;
 }
 .concept-list {
   display: flex;
-  flex-wrap: wrap;
-  row-gap: 24px;
-  column-gap: 8px;
+  flex-wrap: nowrap;
+  gap: 24px;
+  align-items: center;
   align-content: center;
-  justify-content: space-between;
   margin-left: 156px;
   margin-top: 0;
   margin-bottom: 120px;
-  margin-right: 156px;
-
+  
 }
 .concept-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
+justify-content: center;
 }
 
-
-}
 .concept-title,
 .portfolio-subtitle {
   color: var(--background-color);
@@ -281,6 +279,9 @@ nav {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  display: block;
+  margin-bottom: 8px;
+ 
 }
 
 .concept-text,
@@ -290,8 +291,47 @@ nav {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
+  display: block;
+}
+
+.doing .container {
+  max-width: 1128px;
+  padding: 0;
+  margin: 0;
 
 }
+.doing-list {
+  gap: 24px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin-top: 72px;
+  margin-bottom: 120px;
+}
+.img-doing {
+  display: block;
+}
+/**
+  |============================
+  |      TEAM
+  |============================
+*/
+.team {
+  padding-top: 232px;
+  padding-bottom: 120px;
+  margin: 0;
+}
+.team .container {
+  width: 1158px;
+  margin-top: 120px;
+}
+.team-list {
+  display: flex;
+  justify-content: center;
+}
+
 .title {
   color: var(--background-color);
   font-size: 36px;
@@ -300,12 +340,18 @@ nav {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
+  display: block;
+
 }
-.sectoin-team {
+.team {
   background: var(--background-color-portfolio);
+
 }
 .item-picture {
   background: var(--primary-background);
+  display: block;
+  width: 264px;
+  height: 260px;
 }
 .item-card {
   background: var(--primary-background);
@@ -315,7 +361,7 @@ nav {
   |        Footer stales
   |============================
 */
-.footer-board {
+.footer {
   background: var(--background-color);
 }
 .footer-text {
