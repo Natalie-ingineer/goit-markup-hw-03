@@ -66,7 +66,7 @@ li {
 }
 /**
   |============================
-  |         Header stales
+  |         Header styles
   |============================
 */
 
@@ -82,7 +82,6 @@ li {
   display: flex;
   max-width: 1400px;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   padding: 0;
   margin: 0 auto;
@@ -94,7 +93,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0;
-  margin-left: 156px;
+  margin: 0 0 0 156px;
 }
 .nav-list {
   gap: 40px;
@@ -102,9 +101,8 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-left: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  margin: 0 0 0 76px;
+  padding: 24px 0 24px 0;
 }
 .link {
   text-decoration: none;
@@ -144,10 +142,9 @@ nav {
   font-style: normal;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
 }
 .contacts-list {
   gap: 40px;
@@ -155,9 +152,8 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-left: 332px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  margin: 0 0 0 332px;
+  padding: 24px 0 24px 0;
 }
 
 .contacts-list-link {
@@ -176,9 +172,28 @@ nav {
 
 /**
   |============================
-  |       Button stales
+  |        HERO   Button styles
   |============================
 */
+
+.hero {
+  background-color: var(--background-color);
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.hero .container {
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 0;
+  margin: 0 auto 120px;
+}
+
 .button {
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
@@ -194,10 +209,7 @@ nav {
   display: block;
   padding: 16px 32px;
   min-width: 169px;
-  margin-top: 48px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 188px;
+  margin: 48px auto 188px;
   justify-content: center;
 }
 
@@ -223,19 +235,8 @@ nav {
   background: var(--color-button-nav);
   color: var(--primary-background);
 }
-.hero {
-  background-color: var(--background-color);
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0;
-}
 
-/**
-  |============================
-  |      Main-page stales
-  |============================
-*/
-.main-page,
+h1,
 .portfolio {
   color: var(--primary-background);
   text-align: center;
@@ -249,19 +250,7 @@ nav {
   max-width: 496px;
   padding-top: 188px;
   padding: auto;
-  margin-bottom: 48px;
-  margin: 0 auto;
-}
-.hero .container {
-  max-width: 1400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  padding: 0;
-  margin: 0 auto;
-  margin-bottom: 120px;
+  margin: 0 auto 48px;
 }
 
 /**
@@ -271,7 +260,7 @@ nav {
 */
 .concept .container {
   background: #fff;
-  width: 1128px;
+  max-width: 1128px;
   padding: 0;
   margin: 0 auto;
 }
@@ -280,12 +269,10 @@ nav {
   flex-wrap: nowrap;
   gap: 24px;
   align-items: center;
-  align-content: center;
-  justify-content: center;
-  margin-left: 156px;
-  margin-top: 0;
-  margin-bottom: 120px;
+  margin: 0 0 120px 0;
+  padding: 0;
 }
+
 .concept-item {
   flex-basis: calc((100% - 72px) / 4);
   justify-content: center;
@@ -299,7 +286,7 @@ nav {
   letter-spacing: 0.02em;
   display: block;
   justify-content: center;
-  margin-bottom: 8px;
+  margin: 0 0 8px 0;
 }
 
 .concept-text {
@@ -329,8 +316,7 @@ nav {
   display: flex;
   align-content: center;
   justify-content: space-between;
-  margin-top: 72px;
-  margin-bottom: 120px;
+  margin: 72px 0 120px 0;
   padding: 0;
 }
 
@@ -343,7 +329,8 @@ nav {
 
 .img-doing {
   display: block;
-  justify-content: center;
+  max-width: 100%;
+  height: auto;
 }
 
 .title {
@@ -388,8 +375,7 @@ nav {
   display: block;
   align-items: center;
   margin: 0;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  padding: 120px 0 72px 0;
   justify-content: center;
   align-content: center;
 }
@@ -402,10 +388,8 @@ nav {
   letter-spacing: 0.02em;
   display: block;
   justify-content: center;
-  margin-bottom: 8px;
   align-content: center;
-  margin-top: 32px;
-  margin-bottom: 8px;
+  margin: 32px 0 8px 0;
 }
 .card-desc {
   color: var(--primary-color-text);
@@ -416,7 +400,7 @@ nav {
   display: block;
   justify-content: center;
   align-content: center;
-  margin-bottom: 32px;
+  margin: 0 0 32px 0;
 }
 .team {
   background: var(--background-color-portfolio);
@@ -428,13 +412,19 @@ nav {
 .team-item {
   background: var(--primary-background);
   text-align: center;
-  margin-bottom: 120px;
+  margin: 0 0 120px 0;
   border-radius: 0px 0px 4px 4px;
   background: var(--white, #fff);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   gap: 24px;
+}
+
+.picture-team {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /**
@@ -446,7 +436,8 @@ nav {
 .portfolio {
   max-width: 1400px;
   background: #fff;
-  padding-top: 96px;
+  padding: 96px 0 0 0;
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
 }
@@ -455,21 +446,18 @@ nav {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 72px;
-  margin-left: 427px;
-  margin-right: 156px;
-  margin: 0;
+  padding: 0 0 72px 0;
+  margin: 0 156px 0 427px;
 }
 
 .prj-card-list {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  margin: 0;
+  margin: 0 0 120px 0;
   padding: 0;
   align-content: flex-start;
   justify-content: flex-start;
-  margin-bottom: 120px;
 }
 
 .item-card {
@@ -481,6 +469,12 @@ nav {
   background: var(--white, #fff);
 }
 
+.card-row {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .portfolio-subtitle {
   color: var(--background-color);
   font-size: 20px;
@@ -488,10 +482,7 @@ nav {
   line-height: 1.2;
   letter-spacing: 0.02em;
   display: flex;
-  margin-top: 32px;
-  margin-bottom: 8px;
-  margin-left: 16px;
-  margin-right: 0;
+  margin: 32px 0 8px 16px;
   padding: 0;
   justify-content: flex-start;
   align-content: flex-start;
@@ -504,10 +495,7 @@ nav {
   letter-spacing: 0.02em;
   width: 264px;
   display: flex;
-  margin-bottom: 32px;
-  margin-top: 0;
-  margin-left: 16px;
-  margin-right: 0;
+  margin: 0 0 32px 16px;
   padding: 0;
   justify-content: flex-start;
   align-content: flex-start;
@@ -515,7 +503,7 @@ nav {
 
 /**
   |============================
-  |        Footer stales
+  |        Footer styles
   |============================
 */
 .footer .container {
