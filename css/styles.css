@@ -84,8 +84,8 @@ li {
   width: 1158px;
   flex-direction: row;
   align-items: center;
-  padding: 0;
-  margin: 0;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 nav {
@@ -102,16 +102,17 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0;
+  margin-left: 76px;
 }
 .link {
   text-decoration: none;
+  padding: 24px 0;
+  margin: 0 auto;
 }
 
 nav a {
   display: inline-block;
   margin-left: 156px;
-  margin-right: 76px;
 }
 
 .header-logo-web {
@@ -130,7 +131,6 @@ nav a {
 .nav-list-item {
   display: flex;
   padding: 0;
-  margin: 0;
 }
 
 .nav-link {
@@ -157,16 +157,15 @@ nav a {
   align-items: center;
   padding: 0;
   margin: 0;
-  margin-left: 332px;
 }
 .contacts-list {
-  width: 1158px;
+  max-width: 1158px;
   gap: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 24px 0;
-  margin: 0;
+  margin-left: 332px;
 }
 
 .contacts-list-link {
@@ -432,10 +431,7 @@ h1,
   max-width: 100%;
   height: auto;
 }
-.mark,
-.tom,
-.camila,
-.daniel {
+.avatar {
   padding: 32px 0;
 }
 
@@ -504,7 +500,6 @@ h1,
   padding: 32px 16px;
   border: 1px solid var(--color-button-portfolio);
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .card-row {
@@ -523,6 +518,7 @@ h1,
   padding: 0;
   justify-content: flex-start;
   align-content: flex-start;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
