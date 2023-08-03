@@ -74,17 +74,12 @@ li {
 .header-nav {
   background: var(--primary-background);
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
-  max-width: 1400px;
-  margin: 0 auto;
 }
 
 .header-nav .container {
   display: flex;
-  max-width: 1158px;
   flex-direction: row;
   align-items: center;
-  padding: 0 15px;
-  margin: 0 auto;
   margin-left: 156px;
 }
 
@@ -103,7 +98,6 @@ li {
 .link {
   text-decoration: none;
   padding: 24px 0;
-  margin: 0 auto;
 }
 
 .navigation a {
@@ -138,7 +132,6 @@ li {
   letter-spacing: 0.02em;
   list-style-type: none;
   display: inline-block;
-  margin: 0 auto;
 }
 
 .nav-link:hover,
@@ -151,8 +144,6 @@ li {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0;
-  margin: 0 auto;
 }
 .contacts-list {
   max-width: 1158px;
@@ -186,20 +177,15 @@ li {
 
 .hero {
   background-color: var(--background-color);
-  max-width: 1400px;
-  margin: 0 auto;
   padding: 188px 0;
 }
 
 .hero .container {
-  max-width: 1400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding: 0;
-  margin: 0 auto;
 }
 
 .button {
@@ -242,8 +228,6 @@ h1,
   display: block;
   align-items: center;
   max-width: 496px;
-  padding: auto;
-  margin: 0 auto;
 }
 
 /**
@@ -254,23 +238,15 @@ h1,
 
 .concept {
   background: #fff;
-  max-width: 1400px;
-  margin: 0 auto;
   padding: 120px 0;
 }
 
-.concept .container {
-  padding: 0;
-  margin: 0 auto;
-}
 .concept-list {
   max-width: 1128px;
   display: flex;
   flex-wrap: nowrap;
   gap: 24px;
   align-items: center;
-  margin: 0;
-  padding: 0;
 }
 
 .concept-item {
@@ -286,7 +262,7 @@ h1,
   letter-spacing: 0.02em;
   display: block;
   justify-content: center;
-  margin: 0 0 8px 0;
+  margin-bottom: 8px;
 }
 
 .concept-text {
@@ -306,9 +282,7 @@ h1,
 */
 .doing {
   background: #fff;
-  max-width: 1400px;
   padding-bottom: 120px;
-  margin: 0 auto;
 }
 
 .doing-list {
@@ -316,14 +290,11 @@ h1,
   display: flex;
   align-content: center;
   justify-content: space-between;
-  padding: 0;
 }
 
 .doing-item {
   display: inline-block;
   flex-basis: calc((100% - 48px) / 3);
-  padding: 0;
-  margin: 0;
 }
 
 .img-doing {
@@ -340,8 +311,6 @@ h1,
   letter-spacing: 0.72px;
   text-transform: capitalize;
   display: flex;
-  margin: 0 auto;
-  padding: 0;
   justify-content: center;
   align-content: center;
   margin-bottom: 72px;
@@ -355,8 +324,6 @@ h1,
 
 .team {
   background: var(--background-color-portfolio);
-  max-width: 1400px;
-  margin: 0 auto;
   padding: 120px 0;
 }
 
@@ -367,8 +334,6 @@ h1,
   align-items: center;
   align-content: center;
   justify-content: space-between;
-  margin: 0 auto;
-  padding: 0;
 }
 
 .team-title {
@@ -381,7 +346,6 @@ h1,
   text-transform: capitalize;
   display: block;
   align-items: center;
-  padding: 0;
   margin-bottom: 72px;
   justify-content: center;
   align-content: center;
@@ -438,11 +402,9 @@ h1,
 */
 
 .portfolio {
-  max-width: 1400px;
   background: #fff;
   padding-top: 96px;
   padding-bottom: 120px;
-  margin: 0 auto;
   justify-content: center;
   align-items: center;
 }
@@ -479,7 +441,6 @@ h1,
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding: 0;
   align-content: flex-start;
   justify-content: flex-start;
 }
@@ -487,8 +448,6 @@ h1,
 .item-card {
   background: var(--primary-background);
   width: calc((100% - 48px) / 3);
-  padding: 0;
-  margin: 0;
   background: var(--white, #fff);
 }
 
@@ -511,7 +470,6 @@ h1,
   line-height: 1.2;
   letter-spacing: 0.02em;
   display: flex;
-  padding: 0;
   justify-content: flex-start;
   align-content: flex-start;
   margin-bottom: 8px;
@@ -524,7 +482,6 @@ h1,
   letter-spacing: 0.02em;
   width: 264px;
   display: flex;
-  padding: 0;
   justify-content: flex-start;
   align-content: flex-start;
 }
@@ -538,21 +495,12 @@ h1,
 .footer {
   background: var(--background-color);
   padding: 100px 0;
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
-.footer .container {
-  max-width: 1158px;
-  margin: 0;
-  padding: 0;
 }
 
 .footer a {
   display: inline-block;
   margin-bottom: 16px;
   margin-left: 156px;
-  padding: 0;
 }
 
 .footer-logo-web {
