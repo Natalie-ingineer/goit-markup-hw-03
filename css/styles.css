@@ -76,7 +76,6 @@ li {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 .header-nav .container {
@@ -139,7 +138,7 @@ li {
   letter-spacing: 0.02em;
   list-style-type: none;
   display: inline-block;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .nav-link:hover,
@@ -153,7 +152,7 @@ li {
   flex-direction: row;
   align-items: center;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
 }
 .contacts-list {
   max-width: 1158px;
