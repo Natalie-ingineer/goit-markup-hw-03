@@ -76,7 +76,7 @@ li {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 15px;
 }
 
 .header-nav .container {
@@ -84,7 +84,7 @@ li {
   max-width: 1158px;
   flex-direction: row;
   align-items: center;
-  padding: 0;
+  padding: 0 15px;
   margin: 0 auto;
   margin-left: 156px;
 }
@@ -94,14 +94,11 @@ li {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0;
-  margin: 0;
 }
 .nav-list {
   gap: 40px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
 }
 .link {
@@ -122,10 +119,10 @@ li {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: var(--color-button);
+  margin-right: 76px;
 }
 .logo-studio {
   color: var(--background-color);
-  margin-right: 76px;
 }
 
 .nav-list-item {
