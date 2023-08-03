@@ -113,7 +113,7 @@ li {
   display: inline-block;
 }
 
-.header-logo-web {
+.logo {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -122,7 +122,7 @@ li {
   text-transform: uppercase;
   color: var(--color-button);
 }
-.header-logo-studio {
+.logo-studio {
   color: var(--background-color);
   margin-right: 76px;
 }
