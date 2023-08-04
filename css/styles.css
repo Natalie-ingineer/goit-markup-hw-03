@@ -92,7 +92,6 @@ li {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 24px 0;
 }
 .link {
   text-decoration: none;
@@ -126,6 +125,7 @@ li {
   letter-spacing: 0.02em;
   list-style-type: none;
   display: block;
+  padding: 24px 0;
 }
 
 .nav-link:hover,
