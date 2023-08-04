@@ -92,6 +92,7 @@ li {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 24px 0;
 }
 .link {
   text-decoration: none;
@@ -474,7 +475,7 @@ h1 {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: var(--color-button);
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
